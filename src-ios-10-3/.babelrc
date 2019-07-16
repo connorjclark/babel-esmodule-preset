@@ -1,0 +1,14 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "ios": "10.3",
+        },
+        "useBuiltIns": "entry",
+        "debug": true
+      }
+    ]
+  ]
+}
